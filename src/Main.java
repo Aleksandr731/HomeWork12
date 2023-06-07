@@ -7,12 +7,12 @@ public class Main {
         Author lermontov = new Author("Михаил", "Лермонтов");
         System.out.println("===================");
 
-        System.out.println("tolstoy.getAuthorName() = " + tolstoy.getAuthorName());
-        System.out.println("tolstoy.getAuthorSurname() = " + tolstoy.getAuthorSurname());
+        System.out.println("tolstoy.getName() = " + tolstoy.getName());
+        System.out.println("tolstoy.getSurname() = " + tolstoy.getSurname());
         System.out.println("===================");
 
-        System.out.println("lermontov.getAuthorName() = " + lermontov.getAuthorName());
-        System.out.println("lermontov.getAuthorSurname() = " + lermontov.getAuthorSurname());
+        System.out.println("lermontov.getName() = " + lermontov.getName());
+        System.out.println("lermontov.getSurname() = " + lermontov.getSurname());
         System.out.println("===================");
 
         System.out.println("warAndPeace.getAuthorName() = " + warAndPeace.getAuthorName());
@@ -24,6 +24,8 @@ public class Main {
         System.out.println("borodino.getBookName() = " + borodino.getBookName());
         System.out.println("borodino.getPublishingYear() = " + borodino.getPublishingYear());
         System.out.println("===================");
+
+        warAndPeace.getAuthor().getAuthorName()
 
         warAndPeace.setPublishingYear(1900);
         System.out.println("warAndPeace.getPublishingYear() = " + warAndPeace.getPublishingYear());

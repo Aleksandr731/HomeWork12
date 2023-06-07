@@ -1,25 +1,9 @@
 public class Main {
 
+    public static void main(String[] args) {
+        Book warAndPeace = new Book("Лев Толстой", "Война и мир", 1867);
+        Book borodino = new Book("Лермонтов", "Бородино", 1837);
 
-    public class Book {
-        private String authorName;
-        private String bookName;
-        int publishingYear;
-
-        public Book(String authorName, String bookName, int publishingYear) {
-            this.authorName = authorName;
-            this.bookName = bookName;
-            this.publishingYear = publishingYear;
-        }
     }
 
-    public class Author {
-        private String authorName;
-        private String authorSurname;
-        public Author(String authorName, String authorSurname) {
-            this.authorName = authorName;
-            this.authorSurname = authorSurname;
-
-        }
-    }
 }

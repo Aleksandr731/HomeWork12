@@ -2,8 +2,8 @@ public class Main {
 
 
     public class Book {
-        String authorName;
-        String bookName;
+        private String authorName;
+        private String bookName;
         int publishingYear;
 
         public Book(String authorName, String bookName, int publishingYear) {
@@ -14,8 +14,8 @@ public class Main {
     }
 
     public class Author {
-        String authorName;
-        String authorSurname;
+        private String authorName;
+        private String authorSurname;
         public Author(String authorName, String authorSurname) {
             this.authorName = authorName;
             this.authorSurname = authorSurname;

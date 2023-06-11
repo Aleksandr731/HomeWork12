@@ -33,5 +33,12 @@ public class Main {
         System.out.println("warAndPeace.getPublishingYear() = " + warAndPeace.getPublishingYear());
 
         System.out.println("===================");
+
+        Book book = new Book(tolstoy, "Война и мир", 1867);
+        Author author = new Author("Лев", "Толстой");
+
+        System.out.println(warAndPeace.equals(warAndPeace));
+        System.out.println(tolstoy.equals(tolstoy));
     }
+
 }

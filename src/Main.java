@@ -1,10 +1,12 @@
 public class Main {
 
     public static void main(String[] args) {
-        Book warAndPeace = new Book("Лев Толстой",  "Война и мир", 1867);
-        Book borodino = new Book("Лермонтов", "Бородино", 1837);
         Author tolstoy = new Author("Лев", "Толстой");
         Author lermontov = new Author("Михаил", "Лермонтов");
+
+        Book warAndPeace = new Book(tolstoy, "Война и мир", 1967);
+        Book borodino = new Book(lermontov, "Бородино", 1837);
+
         System.out.println("===================");
 
         System.out.println("tolstoy.getName() = " + tolstoy.getName());
